@@ -1,0 +1,27 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mysqlDs": {
+    "host": "localhost",
+    "port": 3306,
+    "url": "mysql://root:@localhost:3306/loopback_tryout",
+    "database": "loopback_tryout",
+    "password": "",
+    "name": "mysqlDs",
+    "user": "root",
+    "connector": "mysql"
+  },
+  "mongodb": {
+    "host": "demo.strongloop.com",
+    "port": 27017,
+    "url": "",
+    "database": "getting_started_intermediate",
+    "password": "L00pBack",
+    "name": "mongodb",
+    "user": "demo",
+    "useNewUrlParser": true,
+    "connector": "mongodb"
+  }
+}
